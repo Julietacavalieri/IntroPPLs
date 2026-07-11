@@ -6,9 +6,9 @@ Authors: **Julieta Cavalieri** and **Ema Sapirstein**.
 
 ## Project overview
 
-This repository reimplements the mini probabilistic programming language used in the June 26 class. The original class notebook was `activity_5_messaging_student.ipynb`, which is included here as reference. Our rewritten implementation is in `ppl_rewrite_dataclasses.ipynb`. We chose to keep Python, but changed the structure to a more object-oriented design based on `dataclasses`.
+This repository reimplements the mini probabilistic programming language used in the June 26 class of the course. The original class notebook is `activity_5_messaging_student.ipynb`, which is included here as reference. Our rewritten implementation is in `ppl_rewrite_dataclasses.ipynb`. We chose to keep Python, but changed the structure to a more object-oriented design based on `dataclasses`.
 
-The original implementation used a message-interface runtime: the program runs normally until it reaches a probabilistic operation such as `sample` or `observe`. At that point, execution pauses and returns a message. An inference controller handles that message and sends a value back so the machine can continue.
+The original implementation uses a message-interface runtime: the program runs normally until it reaches a probabilistic operation such as `sample` or `observe`. At that point, execution pauses and returns a message. An inference controller handles that message and sends a value back so the machine can continue.
 
 Our rewrite keeps that same idea, but makes the components of the runtime more explicit. Parsed programs from the course parser are converted into dataclass-based AST nodes. Continuations, closures, messages, and the execution machine are also represented with dataclasses.
 
@@ -26,7 +26,13 @@ This makes the separation between the program runtime and the inference algorith
 ```
 
 - `activity_5_messaging_student.ipynb`: original notebook from the June 26 class, included only as reference.
+
+[![Open In Colaboratory](https://google.com)](https://google.com/Julietacavalieri/IntroPPLs/blob/main/activity_5_messaging_student.ipynb)
+
 - `ppl_rewrite_dataclasses.ipynb`: main project notebook. This is the file to read and run.
+
+[![Open In Colaboratory](https://google.com)](https://google.com/Julietacavalieri/IntroPPLs/blob/main/ppl_rewrite_dataclasses.ipynb)
+
 - `requirements.txt`: minimal Python dependencies for local execution.
 
 ## Optional improvements added
