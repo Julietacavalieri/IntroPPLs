@@ -27,11 +27,13 @@ This makes the separation between the program runtime and the inference algorith
 
 - `activity_5_messaging_student.ipynb`: original notebook from the June 26 class, included only as reference.
 
-[![Open In Colaboratory](https://google.com)](https://google.com/Julietacavalieri/IntroPPLs/blob/main/activity_5_messaging_student.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/Julietacavalieri/IntroPPLs/blob/main/activity_5_messaging_student.ipynb)
 
 - `ppl_rewrite_dataclasses.ipynb`: main project notebook. This is the file to read and run.
 
-[![Open In Colaboratory](https://google.com)](https://google.com/Julietacavalieri/IntroPPLs/blob/main/ppl_rewrite_dataclasses.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/Julietacavalieri/IntroPPLs/blob/main/ppl_rewrite_dataclasses.ipynb)
 
 - `requirements.txt`: minimal Python dependencies for local execution.
 
