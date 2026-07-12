@@ -75,6 +75,8 @@ To make this assumption explicit, we added a validation step in `run_smc` that c
 
 If particles are not synchronized, the implementation raises a clear error instead of silently continuing.
 
+We also include two expected-failure examples to verify that the validation is working as intended.
+
 ## How to run
 
 ### Option 1: Google Colab
