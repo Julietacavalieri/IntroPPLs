@@ -82,7 +82,11 @@ If particles are not synchronized, the implementation raises a clear error inste
 The easiest way to run the project is with Google Colab.
 
 1. Open Google Colab.
-2. Upload `ppl_rewrite_dataclasses.ipynb`.
+2. Upload `ppl_rewrite_dataclasses.ipynb` or press the following button:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/Julietacavalieri/IntroPPLs/blob/main/ppl_rewrite_dataclasses.ipynb)
+
 3. Run all cells from top to bottom.
 
 The notebook clones the course repository in its first cells in order to use the original parser and primitive definitions.
